@@ -1,10 +1,11 @@
 
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     justify-content: center;
 
 }
+
 
 /*   NavBar   */
 ul {
@@ -31,6 +32,7 @@ li a {
 li a:hover {
     background-color: #111;
 }
+
 
 /*  Sliders */
 .slider-frame {
@@ -89,4 +91,29 @@ li a:hover {
 
 .my-float{
     margin-top:16px;
+}
+
+/*   Text   */
+
+.titles{
+    flex: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+}
+
+
+/*  Youtube Video Frames    */
+
+.youtube-frame{
+    justify-items: center;
+    justify-content: left;
+    width: 60%;
+    padding-left: initial;
+}
+
+.youtube-frame iframe{
+    width: 100%;
+
 }

@@ -8,7 +8,7 @@
 
 
 /*   NavBar   */
-ul {
+Nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -103,6 +103,15 @@ li a:hover {
     margin: auto;
 }
 
+.text{
+    margin:auto;
+    text-align: center;
+
+}
+
+.text p{
+    text-align: justify;
+}
 
 /*  Youtube Video Frames    */
 
